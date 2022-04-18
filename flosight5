@@ -1,0 +1,501 @@
+production@ranchimall-stevejobs:~$ sudo docker container logs 2a2ea2c8685d --follow --tail 200
+
+[info] (peer) Initializing witness compact blocks (116.202.251.195:7312).
+
+[info] (peer) Peer initialized compact blocks (mode=0, version=2) (116.202.251.195:7312).
+
+[info] (net) Received 1 addrs (hosts=734, peers=9) (116.202.251.195:7312).
+
+[2022-04-18T15:26:10.794Z] info: ::ffff:127.0.0.1 "GET /api/sync" 200 120 0.618 "curl/7.52.1"
+
+[warning] (net) Peer disconnected with requested blocks.
+
+[warning] (net) Resending sync...
+
+[2022-04-18T15:26:15.641Z] info: ::ffff:127.0.0.1 web socket subscribe: inv
+
+[2022-04-18T15:26:15.994Z] info: ::ffff:127.0.0.1 web socket subscribe: sync
+
+[2022-04-18T15:26:15.994Z] info: ::ffff:127.0.0.1 web socket subscribe: inv
+
+[info] (chain) Block a22159a7c67c6e26cd7e9e05472a07a2140ca4321df34e89628a4951b3bf7a3b (5369109) added to chain (size=241 txs=1 time=2.576986).
+
+[info] (net) Removed loader peer (85.15.179.171:7312).
+
+[warning] (net) Peer disconnected with requested blocks.
+
+[warning] (net) Resending sync...
+
+[info] (net) Repurposing peer for loader (91.206.16.214:7312).
+
+[info] (net) Removed loader peer (91.206.16.214:7312).
+
+[warning] (net) Peer disconnected with requested blocks.
+
+[warning] (net) Resending sync...
+
+[info] (net) Repurposing peer for loader (37.187.155.185:7312).
+
+[info] (net) Connected to 69.30.211.114:7312.
+
+[info] (net) Received version (69.30.211.114:7312): version=70015 height=5369968 services=1101 agent=/FLOCore:0.15.1.1/
+
+[info] (peer) Initializing witness compact blocks (69.30.211.114:7312).            [info] (peer) Peer initialized compact blocks (mode=0, version=2) (69.30.211.114:7312).
+
+[info] (net) Received 1 addrs (hosts=734, peers=9) (69.30.211.114:7312).           [info] (net) Connected to 79.137.57.54:7312.                                       [info] (net) Received version (79.137.57.54:7312): version=70015 height=5369969 services=1101 agent=/FLOCore:0.15.2.1/                                                [info] (peer) Initializing witness compact blocks (79.137.57.54:7312).             [info] (peer) Peer initialized compact blocks (mode=0, version=2) (79.137.57.54:7312).                                                                                [info] (net) Received 1 addrs (hosts=734, peers=9) (79.137.57.54:7312).            [2022-04-18T15:26:40.926Z] info: ::ffff:127.0.0.1 "GET /api/sync" 200 120 0.551 "curl/7.52.1"
+
+[info] (net) Removed loader peer (37.187.155.185:7312).
+
+[warning] (net) Peer disconnected with requested blocks.                           [warning] (net) Resending sync...
+
+[info] (chain) Block da7ca48bc1b5fa7ae69b706716e666ca6a65b0796168fbcba96086b8b5305db0 (5369110) added to chain (size=249 txs=1 time=1.71927).                         [info] (chain) Block eea1ba417d5c96a5973e7338dc64c6968b9d3aa802bfd443d971ecde16b7d54a (5369111) added to chain (size=237 txs=1 time=1.701199).
+
+[info] (chain) Block 7f974cee993bb21b6744f0c0ffafff424f3b97ab72a710a513e21bd9437f69e7 (5369112) added to chain (size=249 txs=1 time=1.728099).
+
+[info] (net) Repurposing peer for loader (145.239.0.106:7312).
+
+[info] (net) Received 60 addrs (hosts=711, peers=9) (69.30.211.114:7312).
+
+[2022-04-18T15:27:11.048Z] info: ::ffff:127.0.0.1 "GET /api/sync" 200 120 0.476 "curl/7.52.1"
+
+[info] (net) Connected to 178.238.224.213:7312.
+
+[info] (net) Received version (178.238.224.213:7312): version=70015 height=5369970 services=1101 agent=/FLOCore:0.15.2.1/
+
+[info] (peer) Initializing witness compact blocks (178.238.224.213:7312).
+
+[info] (peer) Peer initialized compact blocks (mode=0, version=2) (178.238.224.213:7312).
+
+[info] (net) Received 1 addrs (hosts=711, peers=9) (178.238.224.213:7312).
+
+[info] (net) Connected to 188.165.203.96:7312.
+
+[info] (net) Received version (188.165.203.96:7312): version=70015 height=5369970 services=1101 agent=/FLOCore:0.15.2.1/
+
+[info] (peer) Initializing witness compact blocks (188.165.203.96:7312).
+
+[info] (peer) Peer initialized compact blocks (mode=0, version=2) (188.165.203.96:7312).
+
+[info] (net) Received 1 addrs (hosts=711, peers=9) (188.165.203.96:7312).
+
+[info] (chain) Block a049c0e61e4618dbf835aab238c3f013f8631017071e2d764326353a912adee1 (5369113) added to chain (size=249 txs=1 time=1.924655).
+
+[info] (chain) Block b2e68f95e048ec654cff51a4b29be2816ebc7c59338e4126c4a674614fc60a40 (5369114) added to chain (size=249 txs=1 time=1.641588).
+
+[info] (net) Received 70 addrs (hosts=711, peers=9) (188.165.203.96:7312).
+
+[2022-04-18T15:27:41.174Z] info: ::ffff:127.0.0.1 "GET /api/sync" 200 120 0.495 "curl/7.52.1"
+
+[info] (net) Received 71 addrs (hosts=711, peers=9) (178.238.224.213:7312).
+
+[info] (net) Received 65 addrs (hosts=712, peers=9) (116.202.251.195:7312).
+
+[2022-04-18T15:28:11.294Z] info: ::ffff:127.0.0.1 "GET /api/sync" 200 120 0.487 "curl/7.52.1"
+
+[2022-04-18T15:28:12.877Z] info: ::ffff:127.0.0.1 web socket disconnect
+
+[2022-04-18T15:28:12.877Z] info: ::ffff:127.0.0.1 unsubscribe: p2p/transaction total: 0
+
+[2022-04-18T15:28:12.877Z] info: ::ffff:127.0.0.1 unsubscribe: p2p/block total: 0
+
+[2022-04-18T15:28:12.877Z] info: ::ffff:127.0.0.1 unsubscribe: p2p/headers total: 1[2022-04-18T15:28:12.877Z] info: ::ffff:127.0.0.1 unsubscribe: header/block total: 0
+
+[2022-04-18T15:28:12.878Z] info: ::ffff:127.0.0.1 unsubscribe: mempool/transaction total: 1
+
+[2022-04-18T15:28:12.878Z] info: ::ffff:127.0.0.1 unsubscribe: block/block total: 1[2022-04-18T15:28:35.337Z] info: ::ffff:127.0.0.1 "GET /api/version" 304 - 0.535 "Mozilla/5.0 (Linux; Android 11; Redmi Note 9 Pro Max) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Mobile Safari/537.36"
+
+[2022-04-18T15:28:35.749Z] info: ::ffff:127.0.0.1 "GET /api/status?q=getInfo" 304 - 0.609 "Mozilla/5.0 (Linux; Android 11; Redmi Note 9 Pro Max) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Mobile Safari/537.36"
+
+[2022-04-18T15:28:35.757Z] info: ::ffff:127.0.0.1 "GET /api/sync" 304 - 0.531 "Mozilla/5.0 (Linux; Android 11; Redmi Note 9 Pro Max) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Mobile Safari/537.36"
+
+[2022-04-18T15:28:35.793Z] info: ::ffff:127.0.0.1 "GET /api/currency" 304 - 29.086 "Mozilla/5.0 (Linux; Android 11; Redmi Note 9 Pro Max) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Mobile Safari/537.36"
+
+[2022-04-18T15:28:36.045Z] info: ::ffff:127.0.0.1 "GET /api/blocks?limit=5" 200 - 1.098 "Mozilla/5.0 (Linux; Android 11; Redmi Note 9 Pro Max) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Mobile Safari/537.36"
+
+[2022-04-18T15:28:36.354Z] info: ::ffff:127.0.0.1 "GET /api/status?q=getInfo" 304 - 0.434 "Mozilla/5.0 (Linux; Android 11; Redmi Note 9 Pro Max) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Mobile Safari/537.36"
+
+[2022-04-18T15:28:36.421Z] info: ::ffff:127.0.0.1 "GET /api/peer" 304 - 0.424 "Mozilla/5.0 (Linux; Android 11; Redmi Note 9 Pro Max) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Mobile Safari/537.36"
+
+[2022-04-18T15:28:36.699Z] info: ::ffff:127.0.0.1 web socket subscribe: inv
+
+[2022-04-18T15:28:37.034Z] info: ::ffff:127.0.0.1 web socket subscribe: sync
+
+[2022-04-18T15:28:37.034Z] info: ::ffff:127.0.0.1 web socket subscribe: inv
+
+[2022-04-18T15:28:37.034Z] info: ::ffff:127.0.0.1 web socket subscribe: sync
+
+[2022-04-18T15:28:37.035Z] info: ::ffff:127.0.0.1 web socket subscribe: inv
+
+[2022-04-18T15:28:37.035Z] info: ::ffff:127.0.0.1 web socket subscribe: sync
+
+[2022-04-18T15:28:41.420Z] info: ::ffff:127.0.0.1 "GET /api/sync" 200 120 0.510 "curl/7.52.1"
+
+[warning] (net) Peer disconnected with requested blocks.
+
+[warning] (net) Resending sync...
+
+[warning] (net) Received unrequested block: f77c9a836fdacf359cdd11c07c00163f26267c7d541cc645d433b43f1ac0238c (193.70.122.58:7312).
+
+[info] (net) Removed loader peer (145.239.0.106:7312).
+
+[warning] (net) Peer disconnected with requested blocks.
+
+[warning] (net) Resending sync...
+
+[warning] (net) Peer disconnected with requested blocks.
+
+[warning] (net) Resending sync...
+
+[info] (net) Repurposing peer for loader (116.202.251.195:7312).
+
+[info] (net) Connected to 34.83.237.202:7312.
+
+[info] (net) Received version (34.83.237.202:7312): version=70015 height=5369975 services=1101 agent=/FLOCore:0.15.2.1/
+
+[info] (peer) Initializing witness compact blocks (34.83.237.202:7312).
+
+[info] (net) Connected to 104.254.110.125:7312.
+
+[info] (peer) Peer initialized compact blocks (mode=0, version=2) (34.83.237.202:7312).
+
+[info] (net) Received 1 addrs (hosts=712, peers=9) (34.83.237.202:7312).
+
+[info] (net) Received version (104.254.110.125:7312): version=70015 height=5369975 services=1101 agent=/FLOCore:0.15.2.1/
+
+[info] (peer) Initializing witness compact blocks (104.254.110.125:7312).
+
+[info] (peer) Peer initialized compact blocks (mode=0, version=2) (104.254.110.125:7312).
+
+[info] (net) Received 1 addrs (hosts=712, peers=9) (104.254.110.125:7312).
+
+[2022-04-18T15:29:11.544Z] info: ::ffff:127.0.0.1 "GET /api/sync" 200 120 0.516 "curl/7.52.1"
+
+[warning] (net) Peer disconnected with requested blocks.
+
+[warning] (net) Resending sync...
+
+[warning] (net) Peer disconnected with requested blocks.
+
+[warning] (net) Resending sync...
+
+[2022-04-18T15:29:41.667Z] info: ::ffff:127.0.0.1 "GET /api/sync" 200 120 0.456 "curl/7.52.1"
+
+[info] (net) Connected to 167.99.5.116:7312.
+
+[info] (net) Received version (167.99.5.116:7312): version=70015 height=5369975 services=1101 agent=/FLOCore:0.15.2.1/
+
+[info] (peer) Initializing witness compact blocks (167.99.5.116:7312).
+
+[info] (peer) Peer initialized compact blocks (mode=0, version=2) (167.99.5.116:7312).
+
+[info] (net) Received 1 addrs (hosts=712, peers=8) (167.99.5.116:7312).
+
+[2022-04-18T15:29:58.741Z] info: ::ffff:127.0.0.1 web socket disconnect
+
+[2022-04-18T15:29:58.741Z] info: ::ffff:127.0.0.1 unsubscribe: p2p/transaction total: 0
+
+[2022-04-18T15:29:58.741Z] info: ::ffff:127.0.0.1 unsubscribe: p2p/block total: 0
+
+[2022-04-18T15:29:58.741Z] info: ::ffff:127.0.0.1 unsubscribe: p2p/headers total: 1[2022-04-18T15:29:58.741Z] info: ::ffff:127.0.0.1 unsubscribe: header/block total: 0
+
+[2022-04-18T15:29:58.742Z] info: ::ffff:127.0.0.1 unsubscribe: mempool/transaction total: 1
+
+[2022-04-18T15:29:58.742Z] info: ::ffff:127.0.0.1 unsubscribe: block/block total: 1[info] (net) Removed loader peer (116.202.251.195:7312).
+
+[warning] (net) Peer disconnected with requested blocks.
+
+[warning] (net) Resending sync...
+
+[info] (net) Repurposing peer for loader (178.238.224.213:7312).
+
+[info] (net) Connected to 46.28.107.182:7312.
+
+[info] (net) Received version (46.28.107.182:7312): version=70015 height=5369975 services=1101 agent=/FLOCore:0.15.2.1/
+
+[info] (peer) Initializing witness compact blocks (46.28.107.182:7312).
+
+[info] (peer) Peer initialized compact blocks (mode=0, version=2) (46.28.107.182:7312).
+
+[info] (net) Received 1 addrs (hosts=712, peers=8) (46.28.107.182:7312).
+
+[info] (net) Received 92 addrs (hosts=713, peers=9) (167.99.5.116:7312).
+
+[warning] (net) Peer disconnected with requested blocks.
+
+[warning] (net) Resending sync...
+
+[info] (net) Connected to 161.35.136.251:7312.
+
+[info] (net) Received version (161.35.136.251:7312): version=70015 height=5369975 services=1001 agent=/fcoin:1.1.6/
+
+[info] (peer) Initializing witness compact blocks (161.35.136.251:7312).
+
+[info] (net) Received 1 addrs (hosts=713, peers=9) (161.35.136.251:7312).
+
+[info] (peer) Peer initialized compact blocks (mode=0, version=2) (161.35.136.251:7312).
+
+[info] (net) Received 701 addrs (hosts=816, peers=9) (161.35.136.251:7312).
+
+[2022-04-18T15:30:11.796Z] info: ::ffff:127.0.0.1 "GET /api/sync" 200 120 0.496 "curl/7.52.1"
+
+[info] (net) Removed loader peer (178.238.224.213:7312).
+
+[warning] (net) Peer disconnected with requested blocks.
+
+[warning] (net) Resending sync...
+
+[info] (net) Repurposing peer for loader (34.83.237.202:7312).
+
+[info] (net) Received 107 addrs (hosts=818, peers=7) (46.28.107.182:7312).
+
+[info] (net) Received 67 addrs (hosts=818, peers=9) (34.83.237.202:7312).
+
+[2022-04-18T15:30:41.917Z] info: ::ffff:127.0.0.1 "GET /api/sync" 200 120 0.489 "curl/7.52.1"
+
+[info] (net) Connected to 85.15.179.171:7312.
+
+[info] (net) Received version (85.15.179.171:7312): version=70015 height=5369976 services=1101 agent=/FLOCore:0.15.2.1/
+
+[info] (peer) Initializing witness compact blocks (85.15.179.171:7312).
+
+[info] (peer) Peer initialized compact blocks (mode=0, version=2) (85.15.179.171:7312).
+
+[info] (net) Received 1 addrs (hosts=818, peers=9) (85.15.179.171:7312).
+
+[info] (net) Repurposing peer for loader (34.83.237.202:7312).
+
+[info] (net) Received 107 addrs (hosts=818, peers=7) (46.28.107.182:7312).
+
+[info] (net) Received 67 addrs (hosts=818, peers=9) (34.83.237.202:7312).
+
+[2022-04-18T15:30:41.917Z] info: ::ffff:127.0.0.1 "GET /api/sync" 200 120 0.489 "curl/7.52.1"
+
+[info] (net) Connected to 85.15.179.171:7312.
+
+[info] (net) Received version (85.15.179.171:7312): version=70015 height=5369976 services=1101 agent=/FLOCore:0.15.2.1/
+
+[info] (peer) Initializing witness compact blocks (85.15.179.171:7312).
+
+[info] (peer) Peer initialized compact blocks (mode=0, version=2) (85.15.179.171:7312).
+
+[info] (net) Received 1 addrs (hosts=818, peers=9) (85.15.179.171:7312).
+
+[2022-04-18T15:31:05.744Z] info: ::ffff:127.0.0.1 "GET /api/status?q=getBestBlockHash" 200 84 0.443 "curl/7.52.1"
+
+[2022-04-18T15:31:12.042Z] info: ::ffff:127.0.0.1 "GET /api/sync" 200 120 0.456 "curl/7.52.1"
+
+[info] (net) Connected to 83.221.211.116:7312.
+
+[info] (net) Received version (83.221.211.116:7312): version=70015 height=5369979 services=1101 agent=/FLOCore:0.15.1.1/
+
+[info] (peer) Initializing witness compact blocks (83.221.211.116:7312).
+
+[info] (peer) Peer initialized compact blocks (mode=0, version=2) (83.221.211.116:7312).
+
+[info] (net) Received 1 addrs (hosts=818, peers=9) (83.221.211.116:7312).
+
+[info] (net) Removed loader peer (34.83.237.202:7312).
+
+[warning] (net) Peer disconnected with requested blocks.
+
+[warning] (net) Resending sync...
+
+[info] (net) Repurposing peer for loader (104.254.110.125:7312).
+
+[2022-04-18T15:31:42.176Z] info: ::ffff:127.0.0.1 "GET /api/sync" 200 120 0.470 "curl/7.52.1"
+
+[info] (net) Removed loader peer (104.254.110.125:7312).
+
+[warning] (net) Peer disconnected with requested blocks.
+
+[warning] (net) Resending sync...
+
+[info] (net) Repurposing peer for loader (167.99.5.116:7312).
+
+[info] (net) Connected to 99.148.47.138:7312.
+
+[info] (net) Received version (99.148.47.138:7312): version=70015 height=5369981 services=1101 agent=/FLOCore:0.15.2.1/
+
+[info] (peer) Initializing witness compact blocks (99.148.47.138:7312).
+
+[info] (peer) Peer initialized compact blocks (mode=0, version=2) (99.148.47.138:7312).
+
+[info] (net) Received 1 addrs (hosts=818, peers=9) (99.148.47.138:7312).
+
+[info] (net) Received 58 addrs (hosts=818, peers=9) (83.221.211.116:7312).
+
+[info] (net) Received 61 addrs (hosts=821, peers=7) (85.15.179.171:7312).
+
+[2022-04-18T15:32:12.297Z] info: ::ffff:127.0.0.1 "GET /api/sync" 200 120 0.480 "curl/7.52.1"
+
+[info] (net) Connected to 162.243.107.112:7312.
+
+[info] (net) Received version (162.243.107.112:7312): version=70015 height=5369981 services=1101 agent=/FLOCore:0.15.0.1/
+
+[info] (peer) Initializing witness compact blocks (162.243.107.112:7312).
+
+[info] (peer) Peer initialized compact blocks (mode=0, version=2) (162.243.107.112:7312).
+
+[info] (net) Received 1 addrs (hosts=821, peers=9) (162.243.107.112:7312).
+
+[info] (chain) Block a035b9d10a15b3e860bc65f60ad0bb100c11737b2f50eb796bafa34cec5e6175 (5369115) added to chain (size=237 txs=1 time=1.932632).
+
+[info] (chain) Block 1d8c68c0860eec778298f7465c2ff412a51d9d567c9487b982bfda82b09e1ca4 (5369116) added to chain (size=249 txs=1 time=1.566269).
+
+[info] (chain) Block 94e1101dab997071f605a4fc1fd5476732bd435f4ee678a33a543e8d14e4ac68 (5369117) added to chain (size=241 txs=1 time=1.675076).
+
+[info] (net) Connected to 91.206.16.214:7312.
+
+[info] (net) Received version (91.206.16.214:7312): version=70015 height=5369981 services=1101 agent=/FLOCore:0.15.2.1/
+
+[info] (peer) Initializing witness compact blocks (91.206.16.214:7312).
+
+[info] (peer) Peer initialized compact blocks (mode=0, version=2) (91.206.16.214:7312).
+
+[info] (net) Received 1 addrs (hosts=821, peers=9) (91.206.16.214:7312).
+
+[warning] (net) Peer disconnected with requested blocks.
+
+[warning] (net) Resending sync...
+
+[warning] (net) Peer disconnected with requested blocks.
+
+[warning] (net) Resending sync...
+
+[info] (net) Removed loader peer (167.99.5.116:7312).
+
+[warning] (net) Peer disconnected with requested blocks.
+
+[warning] (net) Resending sync...
+
+[2022-04-18T15:32:42.406Z] info: ::ffff:127.0.0.1 "GET /api/sync" 200 120 0.472 "curl/7.52.1"
+
+[info] (net) Repurposing peer for loader (85.15.179.171:7312).
+
+[info] (net) Received 58 addrs (hosts=821, peers=9) (91.206.16.214:7312).
+
+[2022-04-18T15:33:12.534Z] info: ::ffff:127.0.0.1 "GET /api/sync" 200 120 0.559 "curl/7.52.1"
+
+[info] (net) Connected to 34.73.149.245:7312.
+
+[info] (net) Received version (34.73.149.245:7312): version=70015 height=5369981 services=1101 agent=/FLOCore:0.15.2.1/
+
+[info] (peer) Initializing witness compact blocks (34.73.149.245:7312).
+
+[info] (peer) Peer initialized compact blocks (mode=0, version=2) (34.73.149.245:7312).
+
+[info] (net) Received 1 addrs (hosts=821, peers=9) (34.73.149.245:7312).
+
+[info] (chain) Block 1a063d8107f214ff447c816b327d245b8bf0cba2f4be6a45997f3281083a0b1c (5369118) added to chain (size=249 txs=1 time=1.645561).
+
+[info] (net) Received 49 addrs (hosts=821, peers=9) (99.148.47.138:7312).
+
+[info] (net) Received 110 addrs (hosts=823, peers=9) (162.243.107.112:7312).
+
+[2022-04-18T15:33:36.988Z] info: ::ffff:127.0.0.1 web socket disconnect
+
+[2022-04-18T15:33:36.989Z] info: ::ffff:127.0.0.1 unsubscribe: p2p/transaction total: 0
+
+[2022-04-18T15:33:36.989Z] info: ::ffff:127.0.0.1 unsubscribe: p2p/block total: 0
+
+[2022-04-18T15:33:36.989Z] info: ::ffff:127.0.0.1 unsubscribe: p2p/headers total: 1[2022-04-18T15:33:36.989Z] info: ::ffff:127.0.0.1 unsubscribe: header/block total: 0
+
+[2022-04-18T15:33:36.989Z] info: ::ffff:127.0.0.1 unsubscribe: mempool/transaction total: 1
+
+[2022-04-18T15:33:36.989Z] info: ::ffff:127.0.0.1 unsubscribe: block/block total: 1[2022-04-18T15:33:37.800Z] info: ::ffff:127.0.0.1 "GET /api/version" 304 - 0.512 "Mozilla/5.0 (Linux; Android 11; Redmi Note 9 Pro Max) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Mobile Safari/537.36"
+
+[2022-04-18T15:33:38.192Z] info: ::ffff:127.0.0.1 "GET /api/status?q=getInfo" 304 - 0.552 "Mozilla/5.0 (Linux; Android 11; Redmi Note 9 Pro Max) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Mobile Safari/537.36"
+
+[2022-04-18T15:33:38.205Z] info: ::ffff:127.0.0.1 "GET /api/sync" 304 - 0.565 "Mozilla/5.0 (Linux; Android 11; Redmi Note 9 Pro Max) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Mobile Safari/537.36"
+
+[2022-04-18T15:33:38.257Z] info: ::ffff:127.0.0.1 "GET /api/currency" 304 - 51.828 "Mozilla/5.0 (Linux; Android 11; Redmi Note 9 Pro Max) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Mobile Safari/537.36"
+
+[2022-04-18T15:33:38.491Z] info: ::ffff:127.0.0.1 "GET /api/blocks?limit=5" 200 - 1.651 "Mozilla/5.0 (Linux; Android 11; Redmi Note 9 Pro Max) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Mobile Safari/537.36"
+
+[2022-04-18T15:33:38.874Z] info: ::ffff:127.0.0.1 "GET /api/status?q=getInfo" 304 - 0.436 "Mozilla/5.0 (Linux; Android 11; Redmi Note 9 Pro Max) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Mobile Safari/537.36"
+
+[2022-04-18T15:33:38.894Z] info: ::ffff:127.0.0.1 "GET /api/peer" 304 - 0.343 "Mozilla/5.0 (Linux; Android 11; Redmi Note 9 Pro Max) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Mobile Safari/537.36"
+
+[2022-04-18T15:33:39.166Z] info: ::ffff:127.0.0.1 web socket subscribe: inv
+
+[2022-04-18T15:33:39.506Z] info: ::ffff:127.0.0.1 web socket subscribe: sync
+
+[2022-04-18T15:33:39.507Z] info: ::ffff:127.0.0.1 web socket subscribe: inv
+
+[2022-04-18T15:33:39.507Z] info: ::ffff:127.0.0.1 web socket subscribe: sync
+
+[2022-04-18T15:33:39.508Z] info: ::ffff:127.0.0.1 web socket subscribe: inv
+
+[2022-04-18T15:33:39.508Z] info: ::ffff:127.0.0.1 web socket subscribe: sync
+
+[2022-04-18T15:33:42.665Z] info: ::ffff:127.0.0.1 "GET /api/sync" 200 120 0.497 "curl/7.52.1"
+
+[info] (chain) Block c794cec60a37e33fa29ef2fe53c8d92d0571fb9e89be5c0311a0d33fd748dd4b (5369119) added to chain (size=249 txs=1 time=1.754582).
+
+[info] (chain) Block 30a463795ea447913dd3ff57ff731053d6a5d5b4e5035f77e470ad0f36cbde7d (5369120) added to chain (size=249 txs=1 time=1.825208).
+
+[info] (net) Connected to 37.187.155.185:7312.
+
+[info] (net) Received version (37.187.155.185:7312): version=70015 height=5369983 services=1101 agent=/FLOCore:0.15.2.1/
+
+[info] (peer) Initializing witness compact blocks (37.187.155.185:7312).
+
+[info] (peer) Peer initialized compact blocks (mode=0, version=2) (37.187.155.185:7312).
+
+[info] (net) Received 1 addrs (hosts=823, peers=9) (37.187.155.185:7312).
+
+[2022-04-18T15:34:12.788Z] info: ::ffff:127.0.0.1 "GET /api/sync" 200 120 0.532 "curl/7.52.1"
+
+[warning] (net) Peer disconnected with requested blocks.
+
+[warning] (net) Resending sync...
+
+[warning] (net) Received unrequested block: ec8a5d5257b8bf27aab238a592e2ed047dfe8f1a281053609ec152a8f4beae43 (99.148.47.138:7312).
+
+[2022-04-18T15:34:42.896Z] info: ::ffff:127.0.0.1 "GET /api/sync" 200 120 0.509 "curl/7.52.1"
+
+[info] (net) Removed loader peer (85.15.179.171:7312).
+
+[warning] (net) Peer disconnected with requested blocks.
+
+[warning] (net) Resending sync...
+
+[info] (net) Repurposing peer for loader (83.221.211.116:7312).
+
+[2022-04-18T15:34:47.649Z] info: ::ffff:127.0.0.1 web socket disconnect
+
+[2022-04-18T15:34:47.649Z] info: ::ffff:127.0.0.1 unsubscribe: p2p/transaction total: 0
+
+[2022-04-18T15:34:47.649Z] info: ::ffff:127.0.0.1 unsubscribe: p2p/block total: 0
+
+[2022-04-18T15:34:47.649Z] info: ::ffff:127.0.0.1 unsubscribe: p2p/headers total: 1[2022-04-18T15:34:47.649Z] info: ::ffff:127.0.0.1 unsubscribe: header/block total: 0
+
+[2022-04-18T15:34:47.649Z] info: ::ffff:127.0.0.1 unsubscribe: mempool/transaction total: 1
+
+[2022-04-18T15:34:47.649Z] info: ::ffff:127.0.0.1 unsubscribe: block/block total: 1^P[info] (net) Received 82 addrs (hosts=824, peers=8) (37.187.155.185:7312).
+
+[2022-04-18T15:35:13.019Z] info: ::ffff:127.0.0.1 "GET /api/sync" 200 120 0.509 "curl/7.52.1"
+
+[warning] (net) Peer disconnected with requested blocks.
+
+[warning] (net) Resending sync...
+
+[info] (net) Connected to 145.239.0.106:7312.
+
+[info] (net) Received version (145.239.0.106:7312): version=70015 height=5369984 services=1101 agent=/FLOCore:0.15.2/
+
+[info] (peer) Initializing witness compact blocks (145.239.0.106:7312).
+
+[info] (peer) Peer initialized compact blocks (mode=0, version=2) (145.239.0.106:7312).
+
+[info] (net) Received 1 addrs (hosts=824, peers=6) (145.239.0.106:7312).
+
+[info] (net) Connected to 193.70.122.58:7312.
+
+[info] (net) Received version (193.70.122.58:7312): version=70015 height=5369984 services=1101 agent=/FLOCore:0.15.2/
+
+[info] (peer) Initializing witness compact blocks (193.70.122.58:7312).
+
+[info] (peer) Peer initialized compact blocks (mode=0, version=2) (193.70.122.58:7312).
+
+[info] (net) Received 1 addrs (hosts=824, peers=9) (193.70.122.58:7312).
